@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Prototyp: Neuigkeiten und Produkte</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Prototyp: Neuigkeiten und Produkte</h1>
+  </header>
+  
+  <nav>
+    <button id="btnHome">Startseite</button>
+  </nav>
+  
+  <main id="mainContent">
+    <!-- Neuigkeiten -->
+    <section id="newsSection">
+      <h2>Neuigkeiten</h2>
+      <ul id="newsList">
+        <!-- Dynamisch per JS gefüllt -->
+      </ul>
+    </section>
+    
+    <!-- Produkte -->
+    <section id="productsSection">
+      <h2>Neue Produkte</h2>
+      <ul id="productsList">
+        <!-- Dynamisch per JS gefüllt -->
+      </ul>
+    </section>
+    
+    <!-- E-Mail Formular -->
+    <section id="emailSection">
+      <h2>Newsletter</h2>
+      <form id="emailForm">
+        <label for="emailInput">E-Mail-Adresse:</label>
+        <input type="email" id="emailInput" required placeholder="Ihre E-Mail">
+        <button type="submit">Senden</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 Prototyp Beispiel</p>
+  </footer>
+  
+  <script src="app.js"></script>
+</body>
+</html>
